@@ -9,7 +9,6 @@ const authToken = require('../middleware/authToken')
 const userDetailsController = require('../controller/user/userDetails')
 const userLogout = require('../controller/user/userLogout')
 const updateUser = require('../controller/user/UpdateUser')
-const allUsers = require('../controller/user/Allusers')
 const UploadProductController = require('../controller/product/uploadProduct')
 const getProductController = require('../controller/product/getProduct')
 const updateProductController = require('../controller/product/updateProduct')
@@ -31,6 +30,7 @@ const verifyEmail = require('../controller/user/VerifyUser')
 const userCreateController = require('../controller/user/userCreate')
 const paymentCart = require('../payment/momo')
 const UpdateCart = require('../controller/cart/UpdateCart')
+const allUsers = require('../controller/user/allUsers')
 
 
 
